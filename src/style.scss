@@ -145,7 +145,8 @@ input[type="radio"].visually-hidden {
  position: relative;
  z-index: -1;
 
- img {
+ img,
+ source {
   display: none;
  }
 }
@@ -377,7 +378,7 @@ input[type="radio"].visually-hidden {
    display: flex;
    align-items: center;
    justify-content: center;
-   flex-direction: column;
+   flex-direction: column-reverse;
    cursor: pointer;
 
    span {
@@ -386,7 +387,7 @@ input[type="radio"].visually-hidden {
     height: 1px;
 
     &+span {
-     margin-top: 2px;
+     margin-bottom: 2px;
     }
 
     &:nth-child(odd) {
