@@ -1,32 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+ <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+ <link rel="stylesheet" href="css/base.css">
+ <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
+ <!-- Начало: Данный блок удалять нельзя -->
+ <!-- <div class="maketforfigma">
+  <a href="https://t.me/s/FigmaToHTML" target="_blank">
+   <img src="img/logo.png">
+  </a>
+  <div>
+   <p>
+    Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+     href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+   </p>
+   <p>
+    При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь
+    получил оплату за верстку этого макета.
+   </p>
+  </div>
+ </div> -->
+ <!-- Конец -->
+
+ <div class="main">
+  <div class="page">
+   <header class="header">
+    <div class="header__bg ibg">
+     <div class="header__bg-wrapper">
+      <picture>
+       <source srcset="img/header/bg.webp" type="image/webp">
+       <img src="img/header/bg.jpg" alt="Background">
+      </picture>
+     </div>
+    </div>
+    <div class="header__wrapper">
+     <div class="header__top header-top">
+      <div class="container">
+       <div class="header-top__wrapper">
+        <div class="header-top__logo-wrapper">
+         <img class="header-top__logo logo" src="img/main-logo.svg" alt="Logo">
         </div>
+        <nav class="header-top__nav nav">
+         <ul class="nav__list">
+          <li class="nav__item">
+           <a class="nav__link" id="#about" href="#">Кто мы?</a>
+          </li>
+          <li class="nav__item">
+           <a class="nav__link" id="#services" href="#">Услуги</a>
+          </li>
+          <li class="nav__item">
+           <a class="nav__link" id="#acsel" href="#">Акселератор</a>
+          </li>
+          <li class="nav__item">
+           <a class="nav__link" id="#news" href="#">Новости</a>
+          </li>
+         </ul>
+        </nav>
+        <a class="header-top__btn green-btn" href="#">Войти</a>
+        <button class="header-top__btn-menu menu-btn">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+        </button>
+       </div>
+      </div>
+     </div>
+     <div class="header__content header-content">
+      <div class="container">
+       <div class="header-content__wrapper">
+        <div class="header-content__title-wrapper">
+         Запустите
+         <br>
+         <h1 class="header-content__title"><span>технологический</span><span>IT-бизнес</span></h1>
+         <br>
+         на международных рынках
+        </div>
+        <p class="header-content__sup-title">Открыт набор заявок на акселератор</p>
+        <a class="header-content__btn blue-btn" href="#">Подать заявку</a>
+       </div>
+      </div>
+     </div>
     </div>
-    <!-- Конец -->
+   </header>
+  </div>
+ </div>
 
-    <div class="main">
-        В данном блоке размещается верстка
-    </div>
-
+ <script src="js/scripts.js"></script>
 </body>
+
 </html>
